@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<testcases>
+<testcase internalid="311" name="THE-0003">
+	<node_order><![CDATA[42]]></node_order>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Check button &quot;Contact Us &quot; in header when user click on this page</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Unregistered user</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration>0.10</estimated_exec_duration>
+	<status>2</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Open web site&nbsp;https://en.shishi.co.il/</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Web site was open&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Click on button &quot;Contact us&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Button is active and form was opened</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>&nbsp;</p>
+
+<table>
+	<tbody>
+		<tr>
+			<td>
+			<p>Check that user entered&nbsp;https://en.shishi.co.il/contacts/</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Opened a feedback form</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+</testcases>
