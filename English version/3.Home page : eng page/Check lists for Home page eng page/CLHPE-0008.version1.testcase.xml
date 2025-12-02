@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<testcases>
+<testcase internalid="11411" name="CLHPE-0008">
+	<node_order><![CDATA[1007]]></node_order>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Check when the left arrow is clicked, the user should see the previous photo, and when the right arrow is clicked, the next photo should be displayed in body,<br />
+Check in the navigation arrows transition between photos is quick (without delays) in body<br />
+Check in the navigation arrows area animation during the photo transition (if applicable) should work correctly and smoothly in body,&nbsp;<br />
+Check in the navigation arrows area animation during the photo transition (if applicable) should work correctly and smoothly in body</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Check when the left arrow is clicked, the user should see the previous photo, and when the right arrow is clicked, the next photo should be displayed in body,<br />
+Check in the navigation arrows transition between photos is quick (without delays) in body<br />
+Check in the navigation arrows area animation during the photo transition (if applicable) should work correctly and smoothly in body,&nbsp;<br />
+Check in the navigation arrows area animation during the photo transition (if applicable) should work correctly and smoothly in body</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+</testcases>

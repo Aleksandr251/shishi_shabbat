@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<testcases>
+<testcase internalid="222" name="THPE-0030">
+	<node_order><![CDATA[1030]]></node_order>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Check how the Home page works when high load on the site.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Unregistered user.&nbsp;</p>
+
+<p>Download Apache JMeter</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Установка JMeter на Windows</strong></p>
+
+<p><strong>Шаги:</strong></p>
+
+<p>1. Перейдите на официальный сайт Apache JMeter:</p>
+
+<p>&nbsp;<a href="https://jmeter.apache.org/download_jmeter.cgi">https://jmeter.apache.org/download_jmeter.cgi</a></p>
+
+<p>&nbsp;</p>
+
+<p>2. Скачайте&nbsp;ZIP<strong>-архив</strong>&nbsp;с последней версией JMeter.</p>
+
+<p>&nbsp;</p>
+
+<p>3. Распакуйте архив в любую удобную папку (например, на рабочий стол).</p>
+
+<p>&nbsp;</p>
+
+<p>4. &nbsp;Перейдите в папку&nbsp;/bin&nbsp;внутри распакованной папки JMeter.</p>
+
+<p>&nbsp;</p>
+
+<p>5. &nbsp;Запустите файл&nbsp;jmeter.bat.</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Установка JMeter на macOS</strong></p>
+
+<p>&nbsp;</p>
+
+<p><strong>1.&nbsp;Установите JMeter через Homebrew</strong>:</p>
+
+<p>brew install jmeter</p>
+
+<p>2.&nbsp;<strong>Запустите JMeter</strong>:&nbsp;</p>
+
+<p>jmeter</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Open JMetr</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Click twice on the right tree on Test plan</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Change name &nbsp;from&nbsp;Test Plan to&nbsp;<strong>Test Plan: Load Test for en.shishi.co.il</strong></p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Click right button on <strong>Test Plan: Load Test for en.shishi.co.il</strong></p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Click on Add</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Click on&nbsp;<strong>Threads (Users)</strong></p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Click on&nbsp;<strong>Thread Group</strong></p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Select there how load the site</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>Writhe down in &nbsp;<strong>Number of Threads&nbsp;(users) - 100</strong></p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[9]]></step_number>
+	<actions><![CDATA[<p>Write&nbsp;&nbsp;down &nbsp;<strong>Ramp-Up Period (in seconds) - 60</strong></p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[10]]></step_number>
+	<actions><![CDATA[<p><strong>Loop Count (how much do quries)</strong>: - 5</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[11]]></step_number>
+	<actions><![CDATA[<p>Click right button on Threads Group</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[12]]></step_number>
+	<actions><![CDATA[<p>Click on Add</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[13]]></step_number>
+	<actions><![CDATA[<p>Click on Sampler</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[14]]></step_number>
+	<actions><![CDATA[<p>Click on HTTP Request</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Add site web adress in test</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[15]]></step_number>
+	<actions><![CDATA[<p>Fill filds :</p>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width:100%">
+	<tbody>
+		<tr>
+			<td>
+			<p><strong>Name</strong></p>
+			</td>
+			<td>
+			<p>Test Home Page</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p><strong>Protocol</strong></p>
+			</td>
+			<td>
+			<p>https</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p><strong>Server Name</strong></p>
+			</td>
+			<td>
+			<p>en.shishi.co.il</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p><strong>Path</strong></p>
+			</td>
+			<td>
+			<p>/index.php</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p><strong>Method</strong></p>
+			</td>
+			<td>
+			<p>GET</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[16]]></step_number>
+	<actions><![CDATA[<p>Click on&nbsp;<strong>Thread Group right button</strong></p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[17]]></step_number>
+	<actions><![CDATA[<p>Click on add</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[18]]></step_number>
+	<actions><![CDATA[<p>Click on Listener</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[19]]></step_number>
+	<actions><![CDATA[<p>Click on&nbsp;<strong>View Results in Table</strong></p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[20]]></step_number>
+	<actions><![CDATA[<p>Click on up bar Start button.&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>After finished test check resault in&nbsp;<strong>View Results in Table (all tests mast have Success results)</strong></p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[21]]></step_number>
+	<actions><![CDATA[<p>Change in filds&nbsp;<strong>Number of Threads (users) - 500. &nbsp;Ramp-Up Period (in seconds) -120&nbsp;Loop Count - 1</strong></p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[22]]></step_number>
+	<actions><![CDATA[<p>Click on up bar Start button.&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>After finished test check resault in&nbsp;<strong>View Results in Table (all tests mast have Success results)</strong></p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[23]]></step_number>
+	<actions><![CDATA[<p>Change in filds&nbsp;<strong>Number of Threads (users) - 1000. &nbsp;</strong></p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[24]]></step_number>
+	<actions><![CDATA[<p>Click on up bar Start button.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>After finished test check resault in View Results in Table (all tests mast have Success results)</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+</testcases>

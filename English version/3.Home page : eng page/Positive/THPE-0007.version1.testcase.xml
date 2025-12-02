@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<testcases>
+<testcase internalid="176" name="THPE-0007">
+	<node_order><![CDATA[1006]]></node_order>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Check the Home page in browser Safari user will see that the page looks the same in body when open site page</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Unregistered user</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>2</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Open&nbsp;<a href="https://en.shishi.co.il/index.php">https://en.shishi.co.il/index.php</a>&nbsp;in Safari.&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Check that the page looks correctly.&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms>
+	<platform>
+		<platform_id><![CDATA[4]]></platform_id>
+		<name><![CDATA[macOS, Safari]]></name>
+		<notes><![CDATA[<p>Sequoia</p>
+
+<p>Arm</p>
+
+<p>Версия 15.1</p>]]></notes>
+		<enable_on_design><![CDATA[1]]></enable_on_design>
+		<enable_on_execution><![CDATA[1]]></enable_on_execution>
+	</platform>
+</platforms>
+
+</testcase>
+</testcases>

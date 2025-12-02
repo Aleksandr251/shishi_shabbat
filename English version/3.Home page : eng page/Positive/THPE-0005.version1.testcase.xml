@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<testcases>
+<testcase internalid="172" name="THPE-0005">
+	<node_order><![CDATA[1004]]></node_order>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Measure the time it takes to download the Home page, especially the images on page when user open site without cash</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Unregistered user.&nbsp;</p>
+
+<p>Without cash.&nbsp;</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>2</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Open&nbsp;<a href="https://en.shishi.co.il/index.php">https://en.shishi.co.il/index.php</a></p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Check that download time is not more than 2 seconds.&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms>
+	<platform>
+		<platform_id><![CDATA[1]]></platform_id>
+		<name><![CDATA[Windows 10, Chrome]]></name>
+		<notes><![CDATA[<p>Домашняя<br />
+Версия&nbsp;&nbsp; &nbsp;22H2<br />
+Сборка ОС&nbsp;&nbsp; &nbsp;19045.5011</p>]]></notes>
+		<enable_on_design><![CDATA[1]]></enable_on_design>
+		<enable_on_execution><![CDATA[1]]></enable_on_execution>
+	</platform>
+	<platform>
+		<platform_id><![CDATA[2]]></platform_id>
+		<name><![CDATA[Windows 11, Chrome]]></name>
+		<notes><![CDATA[<p>Домашняя<br />
+Версия&nbsp;&nbsp; &nbsp;23H2<br />
+Сборка ОС&nbsp;&nbsp; &nbsp;22631.4317</p>]]></notes>
+		<enable_on_design><![CDATA[1]]></enable_on_design>
+		<enable_on_execution><![CDATA[1]]></enable_on_execution>
+	</platform>
+	<platform>
+		<platform_id><![CDATA[3]]></platform_id>
+		<name><![CDATA[macOS, Chrome]]></name>
+		<notes><![CDATA[<p>Sequoia</p>
+
+<p>Arm</p>
+
+<p>Версия 15.1</p>]]></notes>
+		<enable_on_design><![CDATA[1]]></enable_on_design>
+		<enable_on_execution><![CDATA[1]]></enable_on_execution>
+	</platform>
+	<platform>
+		<platform_id><![CDATA[4]]></platform_id>
+		<name><![CDATA[macOS, Safari]]></name>
+		<notes><![CDATA[<p>Sequoia</p>
+
+<p>Arm</p>
+
+<p>Версия 15.1</p>]]></notes>
+		<enable_on_design><![CDATA[1]]></enable_on_design>
+		<enable_on_execution><![CDATA[1]]></enable_on_execution>
+	</platform>
+	<platform>
+		<platform_id><![CDATA[5]]></platform_id>
+		<name><![CDATA[Windows 10, Edge]]></name>
+		<notes><![CDATA[<p>Домашняя<br />
+Версия&nbsp;&nbsp; &nbsp;22H2<br />
+Сборка ОС&nbsp;&nbsp; &nbsp;19045.5011</p>]]></notes>
+		<enable_on_design><![CDATA[1]]></enable_on_design>
+		<enable_on_execution><![CDATA[1]]></enable_on_execution>
+	</platform>
+	<platform>
+		<platform_id><![CDATA[6]]></platform_id>
+		<name><![CDATA[Windows 11, Edge]]></name>
+		<notes><![CDATA[<p>Домашняя<br />
+Версия&nbsp;&nbsp; &nbsp;23H2<br />
+Сборка ОС&nbsp;&nbsp; &nbsp;22631.4317</p>]]></notes>
+		<enable_on_design><![CDATA[1]]></enable_on_design>
+		<enable_on_execution><![CDATA[1]]></enable_on_execution>
+	</platform>
+</platforms>
+
+</testcase>
+</testcases>

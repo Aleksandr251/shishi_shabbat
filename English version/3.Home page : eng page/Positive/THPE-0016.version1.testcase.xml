@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<testcases>
+<testcase internalid="194" name="THPE-0016">
+	<node_order><![CDATA[1015]]></node_order>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Test how the video player works with the keyboard on Home page when video is playing.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Unregistered user</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[1]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>2</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Open site page https://en.shishi.co.il/index.php</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>push play button of first video on Home page</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>push button Up Arrow on keyboard&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>volume of video is turn up</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>push button Down Arrow on keyboard&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>volume of video is turn down</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>push button Left&nbsp;Arrow on keyboard&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>rewind video back</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>push&nbsp;button Right Arrow on keyboard&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>rewind video forward</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>push space button &nbsp;on keyboard&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>pause video</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>push TAB button &nbsp;on keyboard&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>select video&#39;s player element</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+</testcases>
